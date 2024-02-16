@@ -1,10 +1,12 @@
 import './App.css';
 
+import Home from './pages/Home/home'
+
 function App() {
   return (
-    <span className="App bg-red-400">
-        HELLO
-    </span>
+    <>
+        <Home/>
+    </>
   );
 }
 
