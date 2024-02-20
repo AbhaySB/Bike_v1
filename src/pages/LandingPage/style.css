@@ -1,0 +1,91 @@
+/* NAVBAR */
+
+.mainContainer {
+    margin: 0;
+    padding: 2.5rem;
+    background-image: linear-gradient(to right, rgb(246, 165, 14) 45%, rgb(255, 255, 255) 10%);
+    padding-bottom: 3rem;
+}
+
+
+.navbarText {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 17px;
+    color: rgb(65, 63, 63);
+}
+
+.navbarText:hover {
+    cursor: pointer;
+}
+
+.logoBtn {
+    transition: ease-in-out 100ms;
+    font-size: 1.2rem;
+}
+
+.logoBtn:hover {
+    color: black;
+}
+
+.loginBtn {
+    transition: ease-in-out 100ms;
+}
+
+.loginBtn:hover {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 2.4px;
+}
+
+.registerBtn {
+    transition: ease-in-out 100ms;
+}
+
+.registerBtn:hover {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 2.4px;
+}
+
+.helpBtn {
+    transition: ease-in-out 100ms;
+}
+
+.helpBtn:hover {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 2.4px;
+}
+
+.aboutBtn {
+    transition: ease-in-out 100ms;
+}
+
+.aboutBtn:hover {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 2.4px;
+}
+
+.logoImage {
+    -webkit-filter: drop-shadow(1px 1px 0 red) drop-shadow(-1px -1px 0 red);
+    filter: drop-shadow(1px 1px 0 red) drop-shadow(-1px -1px 0 red);
+}
+
+/* MAIN LANDING PAGE */
+
+.landingPage {
+    height: 84vh;
+    background-image: linear-gradient(to right, rgb(246, 165, 14) 45%, rgb(255, 255, 255) 10%);
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+.headLine{
+    font-size: 15rem;
+}
