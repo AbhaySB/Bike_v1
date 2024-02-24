@@ -9,7 +9,7 @@ export default function LandingPage() {
     return (
         <>
             <aside className='mainContainer flex justify-between items-center'>
-                <Link className='navbarText logoBtn ml-32 flex gap-2' to='/landingPage' onClick={()=> window.location.reload()}>
+                <Link className='navbarText logoBtn ml-32 flex gap-2' to='/' onClick={()=> window.location.reload()}>
                     <img src={logo} className='logoImage h-8 w-8' alt="Logo" />
                     My Ride
                 </Link>
