@@ -12,23 +12,23 @@ import Login from './pages/Login/login';
 import Register from './pages/Register/register';
 import SiteCreator from './pages/SiteCreator/siteCreator';
 import VehicleGallery from './pages/VehicleGallery/vehicleGallery';
-import Home from './pages/Home/home';
+// import Home from './pages/Home/home';
 import ErrorCode404 from './pages/ErrorCode404/errorCode404';
 import Help from './pages/Help/help'
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App />,
+    element: <LandingPage />,
     errorElement: <ErrorCode404 />
   },
-  {
-    path: '/landingPage',
-    element: <LandingPage />
-  },
+  // {
+  //   path: '/landingPage',
+  //   element: <LandingPage />
+  // },
   {
     path: '/home',
-    element: <Home />
+    element: <App />
   },
   {
     path: '/about',
@@ -56,7 +56,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/help',
-    element: <Help/>
+    element: <Help />
   }
 
 ])
