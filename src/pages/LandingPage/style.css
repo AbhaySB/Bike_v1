@@ -1,9 +1,19 @@
+body {
+    overflow: hidden;
+  }
+
+/* Both Wrap in This */
+
+.mainContainerBackground {
+    background-image: linear-gradient(to right, rgb(246, 165, 14) 45%, rgb(255, 255, 255) 10%);
+}
+
 /* NAVBAR */
 
 .mainContainer {
     margin: 0;
     padding: 2.5rem;
-    background-image: linear-gradient(to right, rgb(246, 165, 14) 45%, rgb(255, 255, 255) 10%);
+    /* background-image: linear-gradient(to right, rgb(246, 165, 14) 45%, rgb(255, 255, 255) 10%); */
     padding-bottom: 3rem;
 }
 
@@ -80,12 +90,30 @@
 /* MAIN LANDING PAGE */
 
 .landingPage {
-    height: 84vh;
-    background-image: linear-gradient(to right, rgb(246, 165, 14) 45%, rgb(255, 255, 255) 10%);
+    height: 83vh;
+    /* background-image: linear-gradient(to right, rgb(246, 165, 14) 45%, rgb(255, 255, 255) 10%); */
     font-family: "Poppins";
     font-weight: 400;
+    position: relative;
 }
 
-.headLine{
-    font-size: 15rem;
+.landingPageContainerTwo{
+    margin-top: 12rem;
+}
+
+.headLine {
+    margin-top: 12rem;
+    margin-top: 16rem;
+    opacity: 0.1;
+    font-size: 13rem;
+    color: rgb(139, 139, 110);
+    position: absolute;
+}
+
+.heading{
+    
+}
+
+.landingPageBikeImage{
+    height: 68vh;
 }

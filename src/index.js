@@ -14,6 +14,7 @@ import SiteCreator from './pages/SiteCreator/siteCreator';
 import VehicleGallery from './pages/VehicleGallery/vehicleGallery';
 import Home from './pages/Home/home';
 import ErrorCode404 from './pages/ErrorCode404/errorCode404';
+import Help from './pages/Help/help'
 
 const router = createBrowserRouter([
   {
@@ -53,6 +54,10 @@ const router = createBrowserRouter([
     path: '/vehicleGallery',
     element: <VehicleGallery />
   },
+  {
+    path: '/help',
+    element: <Help/>
+  }
 
 ])
 
