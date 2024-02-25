@@ -6,12 +6,12 @@ import MainNavbar from '../../components/MainNavbar/mainNavbar'
 
 export default function Home() {
     return (
-        <>
+        <div className='MainHomeContainer'>
             <MainNavbar />
             <MainSlider />
-            <div className="bg-red-400 flex justify-center">
+            <div className="homepage flex justify-center">
                 HOME
             </div>
-        </>
+        </div>
     )
 }

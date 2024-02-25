@@ -1,0 +1,9 @@
+.MainHomeContainer{
+    background-color: gray;
+}
+
+.homepage{
+    border: 1px solid black;
+    height: 100vh;
+    background: white;
+}
