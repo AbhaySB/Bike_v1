@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './style.css'
-import MainNavbar from '../../components/MainNavbar/mainNavbar'
+import MainNavbar from '../../components/MainNavbar/MainNavbar'
 
 export default function SiteCreator() {
   return (

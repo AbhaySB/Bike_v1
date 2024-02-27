@@ -1,9 +1,8 @@
 .MainHomeContainer{
-    background-color: gray;
+    background-color: rgb(61, 61, 61);
 }
 
 .homepage{
-    border: 1px solid black;
-    height: 100vh;
-    background: white;
+    /* height: auto; */
+    background: rgb(70, 69, 69);
 }

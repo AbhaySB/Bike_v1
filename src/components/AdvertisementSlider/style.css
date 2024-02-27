@@ -1,0 +1,14 @@
+.advertisementContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.advertisementSecondContainer {
+    background: rgb(155, 154, 154);
+    width: 70vw;
+    padding: 10rem;
+}
