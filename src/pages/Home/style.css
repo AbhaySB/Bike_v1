@@ -1,8 +1,16 @@
-.MainHomeContainer{
+.MainHomeContainer {
     background-color: rgb(61, 61, 61);
 }
 
-.homepage{
+.homepage {
     /* height: auto; */
     background: rgb(70, 69, 69);
+}
+
+.homePageNewsTitle{
+    font-family: "roboto";
+    font-weight: 600;
+    font-size: 4rem;
+    margin: 1rem;
+    color: white;
 }

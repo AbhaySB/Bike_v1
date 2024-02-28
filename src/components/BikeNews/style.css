@@ -1,0 +1,28 @@
+.BikeNewsContainer {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BikeNewsSecondContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    margin: 1rem;
+    padding: 1rem;
+    gap: 4rem;
+}
+
+.bikeNewsImg{
+    width: 20rem;
+}
+
+.bikeNewsContent{
+    width: 70vw;
+    height: auto;
+}

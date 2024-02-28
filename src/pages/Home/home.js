@@ -6,6 +6,7 @@ import MainNavbar from '../../components/MainNavbar/MainNavbar'
 import CardBike from '../../components/CardBike/CardBike';
 import AdvertisementSlider from '../../components/AdvertisementSlider/AdvertisementSlider';
 import Footer from '../../components/Footer/Footer';
+import BikeNews from '../../components/BikeNews/BikeNews';
 
 export default function Home() {
     return (
@@ -25,11 +26,18 @@ export default function Home() {
                         <CardBike />
                     </div>
                 </div>
-                <div className=''>
-                <AdvertisementSlider />
+                <div className='mb-14 mt-14'>
+                    <AdvertisementSlider />
+                </div>
+                <div className='homePageNews'>
+                    <h1 className='homePageNewsTitle flex justify-center'>TOP NEWS</h1>
+                    <BikeNews />
+                    <BikeNews />
+                    <BikeNews />
+                    <BikeNews />
                 </div>
                 <div className='mt-10'>
-                <Footer />
+                    <Footer />
                 </div>
             </div>
         </div>
