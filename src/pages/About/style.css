@@ -1,30 +1,16 @@
 .MainContainerAbout {
     background-color: rgb(61, 61, 61);
+
 }
 
 .SecondContainerAbout {
     background: rgb(70, 69, 69);
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 7rem;
+    font-family: "Poppins";
 }
 
-.AboutSection {
-    background: black;
-    width: 35vw;
-    height: 35rem;
-    background-color: rgb(48, 48, 48);
-    border: 1px solid rgb(116, 113, 113);
-    box-shadow: 10px 15px 10px rgb(55, 55, 55);
-    border-radius: 10px;
-}
-
-.AboutHeading {
+.AboutHeading{
     font-family: "roboto";
-    font-weight: 500;
-    font-size: 3rem;
+    font-weight: 600;
 }
 
 .HeadingImage{
@@ -37,21 +23,55 @@
     }
 }
 
-.AboutDescContainer {
-    width: 35vw;
-}
-
-.AboutDesc {
-    font-family: "Poppins";
-    font-weight: 500;
-    font-size: 16px;
+.AboutSectionData{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
     margin: 1rem;
-    padding: 1rem;
-    /* border: 1px solid rgb(116, 113, 113); */
-    background: rgb(70, 69, 69);
-    border-radius: 10px;
+    gap: 6rem;
 }
 
-.AboutImage {
-    width: 35vw;
+.AboutDesc{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    width: 50vw;
+    color: white;
+    font-weight: 400;
+    font-size: 1.5rem;
+    height: 20vh;
+}
+
+.AboutImageContainer{
+    width: 50rem;
+}
+
+.AboutImageFirst{
+    width: 30vw;
+}
+
+.AboutImageSecond{
+    width: 30vw;
+    margin-left: 10rem;
+}
+
+.AboutImageThird{
+    width: 32vw;
+}
+
+.LastPara{
+    background: rgb(70, 69, 69);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.LastParaData{
+    width: 60vw;
 }
