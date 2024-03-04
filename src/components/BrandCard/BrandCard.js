@@ -1,9 +1,12 @@
 import React from 'react'
 
 import './style.css'
+import yamaha from '../../assets/icons/yamaha.png'
 
 export default function BrandCard() {
   return (
-    <div>BrandCard</div>
+    <div className='BrandCardMain'>
+      <img src={yamaha} alt="" />
+    </div>
   )
 }

@@ -28,8 +28,8 @@
     justify-content: center;
     align-items: center;
     padding: 3rem;
-    margin: 1rem;
-    gap: 6rem;
+    margin: 5rem;
+    gap: 1rem;
 }
 
 .AboutDesc{
@@ -45,6 +45,8 @@
 
 .AboutImageContainer{
     width: 50rem;
+    /* padding: 2rem;
+    margin: 1rem; */
 }
 
 .AboutImageFirst{
@@ -69,7 +71,7 @@
     text-align: center;
     color: white;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .LastParaData{

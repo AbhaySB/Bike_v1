@@ -21,20 +21,6 @@ export default function LandingPage() {
                         <div>
 
                             <span className='heading bg-gray-500 text-2xl text-white font-semibold m-1 p-1 rounded-md'>UNLEASH BEAST</span>
-                            {/* <p className='AnimatedContent text-gray-500 font-semibold text-5xl mt-2 mb-2 flex gap-2'>
-                                GET TO KNOW YOUR
-                                <span className='text-gray-800'>
-                                    <TypeAnimation
-                                        sequence={[
-                                            'Vehicle',
-                                            2000,
-                                        ]}
-                                        speed={250}
-                                        style={{ fontSize: '1em'}}
-                                        repeat={Infinity}
-                                    />
-                                </span>
-                            </p> */}
                             <p className='AnimatedContent text-gray-700 font-semibold text-5xl mt-2 mb-2 '>
                                 <TypeAnimation
                                     sequence={[

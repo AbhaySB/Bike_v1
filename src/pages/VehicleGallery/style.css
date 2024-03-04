@@ -1,0 +1,18 @@
+.VehicleGalleryMain{
+    background: rgb(70, 69, 69);
+}
+
+.HeadingGallery{
+    font-family: "roboto";
+    font-weight: 600;
+    color: white;
+    font-size: 3rem;
+}
+
+.GalleryBrandCard{
+    background: rgb(67, 66, 66);
+}
+
+.GalleryBikeCard{
+    height: 90rem;
+}
