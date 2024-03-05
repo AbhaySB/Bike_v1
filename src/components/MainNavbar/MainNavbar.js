@@ -8,7 +8,7 @@ export default function Navbar() {
 
     return (
         <aside className='navbarMainContainer w-full h-20 flex items-center justify-evenly '>
-            <Link className='navItem flex gap-2' to='/' onClick={() => window.location.reload()}>
+            <Link className='navItem flex gap-2' to='/'>
                 <img src={logo} className='logoImage h-8 w-8' alt="Logo" />
                 My Ride
             </Link>

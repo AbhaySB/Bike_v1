@@ -8,12 +8,12 @@
     font-family: "Poppins";
 }
 
-.AboutHeading{
+.AboutHeading {
     font-family: "roboto";
     font-weight: 600;
 }
 
-.HeadingImage{
+.HeadingImage {
     animation: rotate 4s linear infinite;
 }
 
@@ -23,16 +23,16 @@
     }
 }
 
-.AboutSectionData{
+.AboutSectionData {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3rem;
-    margin: 5rem;
+    padding: 4rem;
+    margin: 1rem;
     gap: 1rem;
 }
 
-.AboutDesc{
+.AboutDesc {
     display: flex;
     align-items: center;
     padding: 1rem;
@@ -43,26 +43,47 @@
     height: 20vh;
 }
 
-.AboutImageContainer{
+.AboutImageContainer {
     width: 50rem;
-    /* padding: 2rem;
-    margin: 1rem; */
 }
 
-.AboutImageFirst{
+.AboutImageFirst {
     width: 30vw;
+    animation: rise 1s linear forwards;
 }
 
-.AboutImageSecond{
+.AboutImageThird {
+    width: 32vw;
+    animation: rise 5s linear forwards;
+}
+
+@keyframes rise {
+    from {
+        transform: translateX(0vh);
+    }
+
+    to {
+        transform: translateX(5vh);
+    }
+}
+
+.AboutImageSecond {
     width: 30vw;
     margin-left: 10rem;
+    animation: move 3s linear forwards;
 }
 
-.AboutImageThird{
-    width: 32vw;
+@keyframes move {
+    from {
+        transform: translateX(5vh);
+    }
+
+    to {
+        transform: translateX(0vh);
+    }
 }
 
-.LastPara{
+.LastPara {
     background: rgb(70, 69, 69);
     display: flex;
     justify-content: center;
@@ -74,6 +95,6 @@
     font-size: 1.3rem;
 }
 
-.LastParaData{
+.LastParaData {
     width: 60vw;
 }

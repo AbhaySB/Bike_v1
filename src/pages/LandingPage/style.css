@@ -85,8 +85,8 @@ body {
 }
 
 .logoImage {
-    -webkit-filter: drop-shadow(1px 1px 0 red) drop-shadow(-1px -1px 0 red);
-    filter: drop-shadow(1px 1px 0 red) drop-shadow(-1px -1px 0 red);
+    -webkit-filter: drop-shadow(1px 1px 0 rgb(255, 63, 63)) drop-shadow(-1px -1px 0 rgb(255, 63, 63));
+    filter: drop-shadow(1px 1px 0 rgb(255, 63, 63)) drop-shadow(-1px -1px 0 rgb(255, 63, 63));
 }
 
 /* MAIN LANDING PAGE */
