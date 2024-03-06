@@ -1,0 +1,39 @@
+.MainProfileContainer {
+    font-family: 'poppins';
+    font-weight: 400;
+    position: relative;
+    z-index: 1;
+}
+
+table tr td {
+    border: 1px solid white;
+    padding: 0.7rem;
+}
+
+.tr1:hover{
+    background: rgb(57, 57, 57);
+}
+
+.tr2:hover {
+    background: rgb(57, 57, 57);
+}
+
+.tr3{
+    color: red;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.tr3:hover {
+    color: white;
+    background: rgb(212, 58, 58);
+}
+
+.tr4{
+    background: rgb(57, 57, 57);
+    font-weight: 600;
+}
+
+.tr4:hover {
+    background: rgb(31, 31, 31);
+}
