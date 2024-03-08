@@ -1,0 +1,34 @@
+.AboutBikeMainContainer {
+    background: rgb(105, 105, 105);
+    height: 35rem;
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    color: white;
+    font-family: 'poppins';
+    border: 1px solid rgb(44, 44, 44);
+    border-radius: 5px;
+}
+
+h1{
+    font-weight: 500;
+}
+
+p{
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+.VisitBtnAboutBike{
+    background: #272727;
+    padding: 0.5rem;
+    margin-top: 1.5rem;
+    width: 10rem;
+    box-shadow: 2px 2px 5px rgb(58, 58, 58);
+}
+
+.VisitBtnAboutBike:hover{
+    box-shadow: 4px 4px 10px rgb(58, 58, 58);
+    background: #363636;
+}

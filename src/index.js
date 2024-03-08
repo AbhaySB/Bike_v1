@@ -15,6 +15,7 @@ import VehicleGallery from './pages/VehicleGallery/vehicleGallery';
 // import Home from './pages/Home/home';
 import ErrorCode404 from './pages/ErrorCode404/errorCode404';
 import Help from './pages/Help/help'
+import DetailBikePage from './pages/DetailBikePage/DetailBikePage';
 
 const router = createBrowserRouter([
   {
@@ -57,6 +58,10 @@ const router = createBrowserRouter([
   {
     path: '/help',
     element: <Help />
+  },
+  {
+    path: '/detailBikePage',
+    element: <DetailBikePage />
   }
 
 ])

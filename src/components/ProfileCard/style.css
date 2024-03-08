@@ -1,8 +1,12 @@
 .MainProfileContainer {
     font-family: 'poppins';
     font-weight: 400;
-    position: relative;
+    position: absolute;
     z-index: 1;
+    right: 1rem;
+    top: 3.8rem;
+    color: white;
+    background: rgb(85, 85, 85);
 }
 
 table tr td {
@@ -10,12 +14,8 @@ table tr td {
     padding: 0.7rem;
 }
 
-.tr1:hover{
-    background: rgb(57, 57, 57);
-}
-
 .tr2:hover {
-    background: rgb(57, 57, 57);
+    background: rgb(35, 35, 35);
 }
 
 .tr3{

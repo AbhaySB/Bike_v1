@@ -1,0 +1,13 @@
+.MainDetailContainer {
+    height: 200rem;
+    background: rgb(70, 69, 69);
+    position: relative;
+}
+
+.AboutBikeContainer {
+    position: fixed;
+    right: 10rem;
+    top: 9rem;
+}
+
+.OtherDetailsContainer {}

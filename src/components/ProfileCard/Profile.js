@@ -7,9 +7,6 @@ export default function Profile() {
     return (
         <div className="MainProfileContainer">
             <table>
-                <tr className="tr1">
-                    <td>User</td>
-                </tr>
                 <tr className="tr2">
                     <td><Link to='/findVehicleDetails'>Find Vehicle Details</Link></td>
                 </tr>
