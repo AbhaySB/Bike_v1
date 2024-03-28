@@ -1,13 +1,45 @@
 .MainDetailContainer {
     height: 200rem;
     background: rgb(70, 69, 69);
-    position: relative;
+    /* position: relative; */
+    font-family: "poppins";
+    /* flex-wrap: wrap;     */
 }
 
 .AboutBikeContainer {
-    position: fixed;
+    /* position: fixed;
     right: 10rem;
-    top: 9rem;
+    top: 10rem; */
+    margin-right: 10rem;
+    margin-top: 10rem;
 }
 
-.OtherDetailsContainer {}
+.bikeImagesDetailTab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(97, 96, 96);
+    height: 50vh;
+    width: 50vw;
+    border: 1px solid rgb(105, 104, 104);
+    border-radius: 4px;
+}
+
+.bikeImagesDetailTab img{
+    height: 46vh;
+}
+
+.CircleStyling{
+    padding: 1.5rem;
+    color: white;
+    
+}
+
+.CircleStyling p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    font-size: large;
+    font-weight: 500;
+}
