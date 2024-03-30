@@ -1,5 +1,5 @@
 .MainDetailContainer {
-    height: 200rem;
+    height: 150rem;
     background: rgb(70, 69, 69);
     /* position: relative; */
     font-family: "poppins";
@@ -7,39 +7,120 @@
 }
 
 .AboutBikeContainer {
-    /* position: fixed;
-    right: 10rem;
-    top: 10rem; */
-    margin-right: 10rem;
-    margin-top: 10rem;
+    margin-right: 18vh;
+    margin-top: 17vh;
+    position: relative;
+}
+
+.OtherDetailsContainer {
+    margin: 17vh;
 }
 
 .bikeImagesDetailTab {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(97, 96, 96);
+    background: rgb(107, 106, 106);
     height: 50vh;
     width: 50vw;
     border: 1px solid rgb(105, 104, 104);
     border-radius: 4px;
 }
 
-.bikeImagesDetailTab img{
+.bikeImagesDetailTab img {
     height: 46vh;
 }
 
-.CircleStyling{
+.CircleStyling {
     padding: 1.5rem;
     color: white;
-    
+
 }
 
-.CircleStyling p{
+.CircleStyling p {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0.5rem;
     font-size: large;
     font-weight: 500;
+}
+
+.HighlightsDetails {
+    position: absolute;
+    width: 83vw;
+    height: 100vh;
+}
+
+.bikePrice {
+    margin-top: 4vh;
+    gap: 10vw;
+}
+
+.bikePrice h1 {
+    color: white;
+    font-size: xx-large;
+    margin-bottom: 2vh;
+}
+
+.bikePrice table {
+    border: 1px solid white;
+    color: white;
+    height: 15vh;
+    width: 50vw;
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+    background: rgb(77, 77, 77);
+}
+
+.bikePrice td {
+    font-weight: 400;
+}
+
+.PriceContainerImg {
+    margin-top: 1vh;
+    width: 14vw;
+}
+
+.PriceContainerImg {
+    animation: rotate 12s linear infinite;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+.moreDetails {
+    margin-top: 10vh;
+    gap: 10vw;
+}
+
+.moreDetails h1 {
+    color: white;
+    font-size: xx-large;
+    margin-bottom: 4vh;
+}
+
+.moreDetails table {
+    border: 1px solid white;
+    color: white;
+    height: 90vh;
+    width: 50vw;
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+    background: rgb(77, 77, 77);
+}
+
+.moreDetails td {
+    font-weight: 400;
+}
+
+.keyHighlightsImg{
+    margin-top: 15vh;
+    width: 18vw;
+    margin-left: 12vh;
 }
