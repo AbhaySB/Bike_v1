@@ -1,12 +1,11 @@
 import React from 'react'
 
 import './style.css'
-import yamaha from '../../assets/icons/yamaha.png'
 
-export default function BrandCard() {
+export default function BrandCard(props) {
   return (
-    <div className='BrandCardMain'>
-      <img src={yamaha} alt="" />
+    <div className='BrandCardMain flex justify-center items-center'>
+      <img src={props.image} alt="" />
     </div>
   )
 }
